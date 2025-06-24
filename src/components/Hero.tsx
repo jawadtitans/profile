@@ -147,6 +147,17 @@ const Hero: React.FC<HeroProps> = ({ darkMode }) => {
               <Download size={20} />
               <span>{language === 'en' ? 'Download Resume' : 'دانلود رزومه'}</span>
             </motion.button>
+
+            <motion.a
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              href="https://rbs-technology.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-8 py-3 rounded-full font-medium border-2 border-blue-500 text-blue-600 bg-transparent hover:bg-blue-50 transition-all duration-300 flex items-center space-x-2"
+            >
+              <span>{t.hero.digitalPlatform}</span>
+            </motion.a>
           </motion.div>
 
           <motion.div

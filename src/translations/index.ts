@@ -13,9 +13,10 @@ export const translations = {
       subtitle: 'Full Stack Developer',
       description: 'I create beautiful and functional web applications with modern technologies.',
       cta: 'Get In Touch',
+      digitalPlatform: 'My new online digital tech learning platform for girls',
     },
     about: {
-      title: 'About Me',
+      title: 'About ',
       description: 'I am a passionate full-stack developer with experience in creating modern web applications.',
     },
     services: {
@@ -127,9 +128,10 @@ export const translations = {
       subtitle: 'توسعه‌دهنده فول‌استک',
       description: 'من برنامه‌های وب زیبا و کاربردی با تکنولوژی‌های مدرن ایجاد می‌کنم.',
       cta: 'تماس بگیرید',
+      digitalPlatform: 'پلتفرم آنلاین جدید من برای آموزش تکنولوژی دیجیتال برای دختران',
     },
     about: {
-      title: 'درباره من',
+      title: 'درباره ',
       description: 'من یک توسعه‌دهنده فول‌استک پرشور با تجربه در ایجاد برنامه‌های وب مدرن هستم.',
     },
     services: {
